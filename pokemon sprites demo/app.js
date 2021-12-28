@@ -1,8 +1,8 @@
 const container = document.querySelector('#container');
 
-const baseUrl = 'https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/';
+const baseUrl = 'https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/'
 
-for (let i = 0; i < 151; i++) {
+for (let i = 1; i <= 151; i++) {
     const pokemon = document.createElement('div')
     pokemon.classList.add('pokemon');
 
